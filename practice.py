@@ -1,5 +1,6 @@
-x = 10
-name = "Hiro"
+age = 23
 
-print(x)
-print(name)
+if age >= 25:
+    print("アラサーです")
+else:
+    print("まだまだ子どもです")
