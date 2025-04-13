@@ -1,4 +1,5 @@
-animals = ["cat", "dog", "horse"]
+def aisatu(name):
+    print( name + "さん" +"お金をください")
 
-for aaa in animals:
-    print(aaa)
+aisatu("Nara")
+aisatu("Hiro")
