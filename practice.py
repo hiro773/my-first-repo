@@ -1,2 +1,2 @@
-for x in range(19)
-    print("Hello",x)
+for i in range(19):
+    print("Hello",i)
