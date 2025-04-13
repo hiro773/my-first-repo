@@ -1,9 +1,9 @@
-book = {
-    "title": "python入門",
-    "author": "山田太郎"
+students = {
+    "Aさん" : 88,
+    "Bさん" : 76,
+    "Cさん" : 90
 }
-book["year"] = 2024
-print(book["title"])
-print(book["author"])
-for key, value in book.items():
-    print(key,",",value)
+students["Dさん"] = 95
+students["Cさん"] -=3
+for name , score in students.items():
+    print( name, "," , score)
