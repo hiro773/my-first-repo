@@ -1,2 +1,4 @@
-for i in range(19):
-    print("Hello",i)
+colors = ["red", "green", "blue"]
+
+for color in colors:
+    print(color)
