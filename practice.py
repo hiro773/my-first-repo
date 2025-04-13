@@ -1,4 +1,4 @@
-colors = ["red", "green", "blue"]
+animals = ["cat", "dog", "horse"]
 
-for color in colors:
-    print(color)
+for aaa in animals:
+    print(aaa)
