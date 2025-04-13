@@ -1,5 +1,4 @@
 import math
-
-print(math.sqrt(16))
-print(math.pi)
-print(math.sin(math.radians(30)))
+r = 5
+area = math.pi*r**2
+print("面積は",area)
