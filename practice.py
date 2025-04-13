@@ -1,19 +1,9 @@
-# 辞書の作成
-person = {
-    "name": "Taro",
-    "age": 25,
-    "job": "designer"
+book = {
+    "title": "python入門",
+    "author": "山田太郎"
 }
-
-# 値を取り出す
-print(person["name"])   # → Taro
-
-# 値を変更する
-person["age"] = 30
-
-# 新しいキーと値を追加
-person["city"] = "Tokyo"
-
-# 辞書の中身を全部見る
-for key, value in person.items():
-    print(key, ":", value)
+book["year"] = 2024
+print(book["title"])
+print(book["author"])
+for key, value in book.items():
+    print(key,",",value)
